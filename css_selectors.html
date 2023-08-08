@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading_Style_Sheets_selectors</title>
+
+    <!-- External linking of CSS into HTML -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal linking of CSS into HTMl -->
+    <style>
+        h2,h3
+        {
+            color: chartreuse;
+            font-display: none;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color:crimson; font-size:500%; font-family:'Times New Roman', Times, serif;">My name is Komal Raj S</h1>      <!--- Inline linking of css into html --->
+    <h2>My name is Komal Raj S</h2>
+    <h3>My name is Komal Raj S</h3>
+    <h4 class="name">My name is Komal Raj S</h4>
+    <h5>My name is Komal Raj S</h5>
+    <h6>My name is Komal Raj S</h6>
+    <hr>
+
+    <p class="paragraph"><b>Lorem ipsum dolor sit amet, consectetur 32456 adipisicing elit. Non, optio magnam. Esse, ipsam obcaecati, eligendi facere ratione,</b>,<strong> magnam velit 78782 earum quia magni deleniti illo officiis rerum</strong><br><i> tempore quis987  ipsum atque possimus beatae doloremque libero?</i> <em>Aut error nostrum exercitationem officia velit. </em><br><small>Ullam sequi laboriosam veniam eligendi harum, nostrum perspiciatis rem culpa, neque officia reiciendis, ducimus repellat hic nisi beatae? Adipisci, odio? Ipsum voluptatibus mollitia omnis alias eum nihil, </small><br>10<sup>2</sup><br>10<sub>2</sub><br>
+    </p>
+
+    <p>This is another paragraph</p>
+
+    <hr>
+
+    <h2 id="list"><u>My educational institutions</u></h2>
+    <ol type="I">
+        <li class="edu">Shantidhama English School<ul>
+            <li>Nursery</li>
+            <li class="edu">Primary and Higher primary</li>
+            <li>High school</li>
+        </ul></li>
+        <li class="edu">M.E.S PU College<ul>
+            <li>Pre-University</li>
+        </ul></li>
+        <li class="edu">Ramaiah Institute of Technology<ul>
+            <li>Bachelor of Engineering</li>
+        </ul></li>
+    </ol>
+
+    <a href="http://www.google.com" target="_blank" rel="noopener noreferrer" class="google">Google</a><br>
+    <a href="http://www.youtube.com" target="_blank" class="youtube">Youtube</a><br>
+    <a href="page_2.html" class="a">Page 2</a><br>
+    <a href="C:\Users\WIN10\Pictures\Saved Pictures\nature.jpg" target="_blank" rel="noopener noreferrer" class="a b">Image</a><hr>
+
+    <img src="../../Pictures/Saved Pictures/nature.jpg" alt="This is an image"   width="400">
+    <hr>
+
+    <video src="../../Downloads/Beautiful Nature Around The World.mp4" width="500" controls loop muted poster="../../Pictures/Saved Pictures/nature.jpg"></video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3SsK-cxlj_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   <br>
+
+    <iframe src="https://www.google.com" frameborder="0" width="560" height="300"></iframe><hr>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Monument</th>      
+                <th>City</th>
+                <th>State</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Taj Mahal</td>
+                <td>Agra</td>
+                <td>Uttar Pradesh</td>
+            </tr>
+            <tr>
+                <td>Stone Chariot</td>
+                <td>Hampi</td>
+                <td>Karnataka</td>
+            </tr>
+            <tr>
+                <td>Char Minar</td>
+                <td>Hydereabad</td>
+                <td>Telangana</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <th colspan="3">Indian Monuments</th>
+        </tfoot>
+    </table>
+</body>
+</html>

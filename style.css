@@ -1,0 +1,53 @@
+/* class selector (.) */
+.paragraph{
+    color:blue;
+    font-size: medium;
+    font-variant-numeric: diagonal-fractions;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul li.edu{                      /* selecting a particular class */
+    font-weight: lighter;
+    color:rgb(224, 132, 12);
+}
+
+/* ID selector (#) */
+#list{
+    list-style-type:armenian;
+}
+
+p::first-line{                         /* selecting first line of p tag i.e.,A::---{} */
+    color:rgb(20, 180, 180);
+    font-size:xx-large;
+}
+
+hr+p{                                 /* selecting only immediate paragraph after hr tag i.e., A+a{} */
+    background-color: rgb(87, 86, 83);
+}
+
+/** The following are pseudo-class selectors , i.e., A:{} **/
+a[href]:hover{                        /* also attribute selector,i.e., A[---]{} */
+    font-size: 200%;
+}
+
+a.google:hover{
+    color: black;
+}
+
+a[class="youtube"]:hover{
+    color:red;
+}
+
+a[class="a"]:hover{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a[class~="a"]:hover{   /* selects all classes having a */
+    color: green;
+}
+
+/*
+a[href]:visited{
+    color: rgb(15, 1, 27);
+}   
+*/
